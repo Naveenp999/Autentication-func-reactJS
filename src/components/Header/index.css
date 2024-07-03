@@ -1,0 +1,15 @@
+.list-container {
+  display: flex;
+  list-style-type: none;
+}
+.item {
+  color: blue;
+  font-size: 10px;
+  margin-left: 10px;
+}
+@media screen and (min-width:768px){
+  .item{
+    font-size: 20px;
+    margin-left: 15px;
+  }
+}
